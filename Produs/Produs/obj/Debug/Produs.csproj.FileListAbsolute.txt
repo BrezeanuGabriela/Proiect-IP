@@ -1,0 +1,6 @@
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Produs\Produs\bin\Debug\Produs.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Produs\Produs\bin\Debug\Produs.pdb
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Produs\Produs\obj\Debug\Produs.csproj.AssemblyReference.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Produs\Produs\obj\Debug\Produs.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Produs\Produs\obj\Debug\Produs.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Produs\Produs\obj\Debug\Produs.pdb

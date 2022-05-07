@@ -1,0 +1,9 @@
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\bin\Debug\Comanda.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\bin\Debug\Comanda.pdb
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\bin\Debug\Produs.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\bin\Debug\Produs.pdb
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.csproj.AssemblyReference.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.csproj.CopyComplete
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.pdb

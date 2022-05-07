@@ -1,0 +1,6 @@
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Meniu\Meniu\bin\Debug\Meniu.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Meniu\Meniu\bin\Debug\Meniu.pdb
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Meniu\Meniu\obj\Debug\Meniu.csproj.AssemblyReference.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Meniu\Meniu\obj\Debug\Meniu.csproj.CoreCompileInputs.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Meniu\Meniu\obj\Debug\Meniu.dll
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Meniu\Meniu\obj\Debug\Meniu.pdb
