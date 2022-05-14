@@ -14,6 +14,7 @@ namespace Restaurant
         public Masa()
         {
             _index = _nrMese;
+            _nrMese++;
             _comenzi = new List<Comanda>();
         }
 
