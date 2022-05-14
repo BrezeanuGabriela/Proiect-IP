@@ -6,18 +6,45 @@ using System.Threading.Tasks;
 
 namespace Restaurant
 {
-    public class Masa
+    public class Masa : IMasa
     {
-        private List<Comanda> _comenzi;
+        
+        private int _index;
 
-        public void AddComanda()
+        public Masa()
         {
-
+            _index = _nrMese;
+            _comenzi = new List<Comanda>();
         }
 
-        public List<Comanda> GetComenzi()
+        ///<summary>
+        ///Metoda care adauga comanda curenta la lista de comenzi de pe masa
+        ///</summary>
+        ///<param name="comanda">Comanda care a fost data la masa</param>
+        public override void AddComanda(Comanda comanda)
         {
-            return _comenzi; //de facut getter-ul ca in laboratoare
+            _comenzi.Add(comanda);
         }
+
+        public override Comanda GetComanda(int index)
+        {
+            return _comenzi[_index];
+        }
+
+        public override void StergeComanda(Comanda comanda)
+        {
+            _comenzi.Remove(comanda);
+        }
+
+        public override double TotalCostComenziMasa()
+        {
+            double cost = 0.0;
+            foreach(Comanda comanda in _comenzi)
+            {
+                cost += comanda.Facturare();
+            }
+            return cost;
+        }
+
     }
 }

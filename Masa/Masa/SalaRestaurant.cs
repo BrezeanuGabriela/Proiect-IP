@@ -6,24 +6,34 @@ using System.Threading.Tasks;
 
 namespace Restaurant
 {
-    public class SalaRestaurant
+    public sealed class SalaRestaurant
     {
-        private List<Masa> _mese;
+        private static SalaRestaurant _instance;
+
+        private List<IMasa> _listaMese;
         private int _indexMasaCurenta;
-        SalaRestaurant()
+        private SalaRestaurant()
         {
-            _mese = new List<Masa>();
+            _listaMese = new List<IMasa>();
         }
 
-        public void SetCurrentTable(int indexMasa)
+        public SalaRestaurant Instance()
+        {
+            if( null == _instance)
+            {
+                _instance = new SalaRestaurant();
+            }
+            return _instance;
+        }
+        public IMasa GetCurrentTable(int indexMasa)
         {
             _indexMasaCurenta = indexMasa;
+            return _listaMese[_indexMasaCurenta];
         }
 
         public List<Comanda> GetComenziMasaCurenta()
         {
-            return _mese[_indexMasaCurenta].GetComenzi();
+            return _listaMese[_indexMasaCurenta].Comenzi;
         }
-
     }
 }

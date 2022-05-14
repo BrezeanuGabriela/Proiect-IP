@@ -1,0 +1,2 @@
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Masa\Masa\obj\Debug\Masa.csproj.AssemblyReference.cache
+E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Masa\Masa\obj\Debug\Masa.csproj.CoreCompileInputs.cache

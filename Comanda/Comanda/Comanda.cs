@@ -6,14 +6,61 @@ using System.Threading.Tasks;
 
 namespace Restaurant
 {
-    public abstract class Comanda
+    public class Comanda : IComanda
     {
-        private int _idClient;
-        private int _idComanda;
-        private List<Produs> _produseComandate;
-        private double _costTotal;
-        public abstract double Facturare();
+        protected List<Produs> _produseComandate;
+        protected double _costTotal;
+        protected bool _finalizata;
 
-        public abstract String AfiseazaComanda();
+        public bool Finalizata
+        {
+            get { return _finalizata;  }
+            set { _finalizata = value; }
+        }
+        public double CostTotal
+        {
+            get { return _costTotal; }
+        }
+
+        public Comanda(int idClient, Produs[] produse)
+        {
+            _idClient = idClient;
+
+            _idComanda = _nrComenzi;
+            _nrComenzi++;
+
+            _produseComandate = new List<Produs>();
+            foreach(Produs produs in produse)
+            {
+                _produseComandate.Add(produs);
+            }
+            _costTotal = 0;
+        }
+
+        public override double Facturare()
+        {
+            foreach(Produs produs in _produseComandate)
+            {
+                //_costTotal += produs.getPrice();
+            }
+
+            _finalizata = true;
+             return _costTotal;
+        }
+
+        public override String AfiseazaComanda()
+        {
+            string comanda = "";
+            comanda += "Comanda cu id-ul " + this._idComanda.ToString() + " la clientul " + this._idClient.ToString() + ":\n";
+            
+            foreach(Produs produs in _produseComandate)
+            {
+                //comanda += produs.getDenumire() + " - " + produs.getPrice() + "\n";
+            }
+
+            comanda += "----------------\n Cost Total: " + _costTotal.ToString();
+
+            return comanda;
+        }
     }
 }
