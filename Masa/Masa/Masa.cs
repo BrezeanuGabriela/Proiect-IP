@@ -28,7 +28,7 @@ namespace Restaurant
 
         public override Comanda GetComanda(int index)
         {
-            return _comenzi[_index];
+            return _comenzi[index];
         }
 
         public override void StergeComanda(Comanda comanda)
