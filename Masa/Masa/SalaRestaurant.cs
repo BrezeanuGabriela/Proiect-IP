@@ -17,7 +17,7 @@ namespace Restaurant
             _listaMese = new List<IMasa>();
         }
 
-        public SalaRestaurant Instance()
+        public static SalaRestaurant Instance()
         {
             if( null == _instance)
             {

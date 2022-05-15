@@ -1,2 +1,13 @@
 E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Masa\Masa\obj\Debug\Masa.csproj.AssemblyReference.cache
 E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Masa\Masa\obj\Debug\Masa.csproj.CoreCompileInputs.cache
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\bin\Debug\Masa.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\bin\Debug\Masa.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\bin\Debug\Comanda.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\bin\Debug\Produs.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\bin\Debug\Comanda.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\bin\Debug\Produs.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\obj\Debug\Masa.csproj.AssemblyReference.cache
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\obj\Debug\Masa.csproj.CoreCompileInputs.cache
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\obj\Debug\Masa.csproj.CopyComplete
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\obj\Debug\Masa.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Masa\Masa\obj\Debug\Masa.pdb

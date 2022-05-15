@@ -7,3 +7,12 @@ E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\
 E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.csproj.CopyComplete
 E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.dll
 E:\FACULTATE\Semestrul 2\IP\Proiect\Tentativa proiect\Comanda\Comanda\obj\Debug\Comanda.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\obj\Debug\Comanda.csproj.AssemblyReference.cache
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\obj\Debug\Comanda.csproj.CoreCompileInputs.cache
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\obj\Debug\Comanda.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\obj\Debug\Comanda.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\bin\Debug\Comanda.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\bin\Debug\Comanda.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\bin\Debug\Produs.dll
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\bin\Debug\Produs.pdb
+E:\Uni AC\AN_3_\SEM2\materii\IP\proiect\Proiect-IP\Comanda\Comanda\obj\Debug\Comanda.csproj.CopyComplete
