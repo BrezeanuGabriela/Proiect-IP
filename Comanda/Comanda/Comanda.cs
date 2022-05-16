@@ -22,18 +22,19 @@ namespace Restaurant
             get { return _costTotal; }
         }
 
-        public Comanda(int idClient, Produs[] produse)
+        public int IdClient
+        {
+            get { return _idClient; }
+        }
+        public Comanda(int idClient, List<Produs> produse)
         {
             _idClient = idClient;
 
             _idComanda = _nrComenzi;
             _nrComenzi++;
 
-            _produseComandate = new List<Produs>();
-            foreach(Produs produs in produse)
-            {
-                _produseComandate.Add(produs);
-            }
+            _produseComandate = produse;
+            
             _costTotal = 0;
         }
 
