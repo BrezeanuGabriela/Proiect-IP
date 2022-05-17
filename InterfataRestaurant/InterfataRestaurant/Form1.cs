@@ -10,44 +10,39 @@ using System.Windows.Forms;
 
 namespace InterfataRestaurant
 {
-    public partial class Form1 : Form
+    public partial class GUIRestaurant : Form
     {
-        public Form1()
+        public GUIRestaurant()
         {
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void adaugaMancareClient_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void aduagaBauturiClient_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void observatiiClient_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void adaugaMancareChelner_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void adaugaBauturiChelner_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
+        private void detaliiComandaChelner_TextChanged(object sender, EventArgs e)
         {
 
         }
