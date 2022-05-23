@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Client",
+    "\\Client\\Client",
+    "\\Client\\Client\\obj",
+    "\\Client\\Client\\obj\\Release",
+    "\\Meniu",
+    "\\Meniu\\Meniu",
+    "\\Meniu\\Meniu\\obj",
+    "\\Meniu\\Meniu\\obj\\Release",
+    "\\Meniu\\Meniu\\Properties"
+  ],
+  "SelectedNode": "\\Client\\Client\\Client.csproj",
+  "PreviewInSolutionExplorer": false
+}
