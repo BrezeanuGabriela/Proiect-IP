@@ -14,6 +14,7 @@ namespace Restaurant
         public Masa()
         {
             _index = _nrMese;
+            _nrMese++;
             _comenzi = new List<Comanda>();
         }
 
@@ -28,7 +29,7 @@ namespace Restaurant
 
         public override Comanda GetComanda(int index)
         {
-            return _comenzi[_index];
+            return _comenzi[index];
         }
 
         public override void StergeComanda(Comanda comanda)
