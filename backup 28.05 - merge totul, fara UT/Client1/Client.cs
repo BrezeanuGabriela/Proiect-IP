@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Restaurant
 {
@@ -44,7 +45,14 @@ namespace Restaurant
         {
             
             IComanda comanda = new Comanda(_idClient, _produsList, _observatii);
-            Chelner.Instance().PreiaComanda(comanda, _indexMasa);
+            try
+            {
+                Chelner.Instance().PreiaComanda(comanda, _indexMasa);
+            }
+            catch(Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
         }
     }
 }
