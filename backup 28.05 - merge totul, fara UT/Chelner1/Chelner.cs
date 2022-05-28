@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,17 +25,35 @@ namespace Restaurant
 
         public void PreiaComanda(IComanda comanda, int indexMasa)
         {
-            IMasa masa = SalaRestaurant.Instance().GetCurrentTable(indexMasa);
-            masa.AddComanda(comanda);
+            if (indexMasa < SalaRestaurant.Instance().ListaMese.Count)
+            {
+                IMasa masa = SalaRestaurant.Instance().GetCurrentTable(indexMasa);
+                if (masa != null)
+                {
+                    masa.AddComanda(comanda);
+                }
+                else
+                {
+                    throw new Exception("Nu exista vreo masa");
+                }
+            }
+            else
+            {
+                throw new Exception("Indexul mesei este prea mare.");
+            }
         }
 
         public String EmiteBon(int indexMasa, int indexComandaSelectata)
         {
             IMasa masa = SalaRestaurant.Instance().GetCurrentTable(indexMasa);
-            Comanda comanda = null;
-            masa.GetComanda(indexComandaSelectata, ref comanda);
+            if (masa != null)
+            {
+                Comanda comanda = null;
+                masa.GetComanda(indexComandaSelectata, ref comanda);
 
-            return comanda.TiparesteBon();
+                return comanda.TiparesteBon();
+            }
+            return "";
         }
 
         public double InchideCasa()
