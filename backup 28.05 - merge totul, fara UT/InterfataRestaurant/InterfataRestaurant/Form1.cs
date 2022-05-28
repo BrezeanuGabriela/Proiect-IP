@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -159,18 +159,25 @@ namespace InterfataRestaurant
                 _client.TrimiteComanda();
 
                 //adauga comanda in lista comenzilor de la chelner
-                int nrComenzi = _salaRestaurant.GetComenziMasaCurenta().Count;
+                try
+                {
+                    int nrComenzi = _salaRestaurant.GetComenziMasaCurenta().Count;
 
-                listaComenziChelner.Items.Add(((Comanda)_salaRestaurant.GetComenziMasaCurenta()[nrComenzi-1]).GetRezumatComanda());
+                    listaComenziChelner.Items.Add(((Comanda)_salaRestaurant.GetComenziMasaCurenta()[nrComenzi - 1]).GetRezumatComanda());
 
-                //"curata" panoul clientului
-                bonClient.Items.Clear();
-                mancareClient.SelectedIndex = -1;
-                observatiiClient.Text = "";
-                textTotalClient.Text = "";
+                    //"curata" panoul clientului
+                    bonClient.Items.Clear();
+                    mancareClient.SelectedIndex = -1;
+                    observatiiClient.Text = "";
+                    textTotalClient.Text = "";
 
-                _produseSelectate = new List<Produs>();
-                _cost = 0;
+                    _produseSelectate = new List<Produs>();
+                    _cost = 0;
+                }
+                catch(Exception exception)
+                {
+                    MessageBox.Show(exception.Message);
+                }
             }
             else
             {
